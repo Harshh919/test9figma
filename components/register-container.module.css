@@ -1,0 +1,119 @@
+.signUpFormCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 581px;
+  height: 423px;
+}
+.a,
+.dvizer {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.a {
+  background: linear-gradient(
+    91.35deg,
+    #7848ff 7.51%,
+    #b341a7 26.15%,
+    #ff3838 49.76%
+  );
+}
+.dvizer {
+  background: linear-gradient(
+    91.34deg,
+    #4301ff,
+    rgba(255, 56, 56, 0.64) 66.15%
+  );
+}
+.welcomeBackToContainer {
+  position: absolute;
+  top: 35px;
+  left: 75px;
+  font-weight: 500;
+}
+.registerBtnChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--color-dodgerblue-200);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 176px;
+  height: 63px;
+}
+.signIn {
+  position: absolute;
+  top: 15px;
+  left: 44px;
+  font-weight: 500;
+}
+.registerBtn {
+  position: absolute;
+  top: 320px;
+  left: 202px;
+  width: 176px;
+  height: 63px;
+  cursor: pointer;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+}
+.emailInputChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 482px;
+  height: 60px;
+}
+.email,
+.emailInput {
+  position: absolute;
+  top: 17px;
+  left: 24px;
+}
+.emailInput {
+  top: 0;
+  left: 0;
+  width: 482px;
+  height: 60px;
+}
+.password,
+.passwordInput {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+}
+.passwordInput {
+  top: 83px;
+  left: 0;
+  width: 482px;
+  height: 60px;
+}
+.emailInputParent,
+.registerCard {
+  position: absolute;
+  top: 129px;
+  left: 49px;
+  width: 482px;
+  height: 143px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+}
+.registerCard {
+  top: 319px;
+  left: 574px;
+  width: 581px;
+  height: 423px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}

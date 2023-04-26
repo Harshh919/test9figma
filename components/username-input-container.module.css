@@ -1,0 +1,31 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 482px;
+  height: 60px;
+}
+.rounik {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  font-weight: 500;
+}
+.rectangleParent,
+.usernameInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 482px;
+  height: 60px;
+}
+.usernameInput {
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
